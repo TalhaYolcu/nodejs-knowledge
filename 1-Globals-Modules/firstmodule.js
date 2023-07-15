@@ -6,10 +6,15 @@ const secret = 'SUPER SECRET';
 const noyan = 'noyan';
 const talha = 'talha';
 
-//sharing the objects
-module.exports = {noyan,talha}
-//with this way, only noyan and talha are shared, no one can access to the secret
 
+
+function myDateTime() {
+  return Date();
+}
+
+//sharing the objects
+module.exports = {noyan,talha,myDateTime:myDateTime}
+//with this way, only noyan and talha are shared, no one can access to the secret
 
 //console.log(module);
 

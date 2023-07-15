@@ -1,0 +1,2 @@
+Hello to 3rd file with writeFile function
+Hello to 3rd file again with appendFunction
